@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAS</title>
+    <br />
+    <h1>MICHAEL STIVEN CERON VALENCIA TDS III</h1>
+</head>
+<body>
+
+    <h1>TABLAS EN HTML</h1> <br />
+    <p>
+        Las tablas es el elemento del lenguaje HTML que utilizaremos para mostrar información de forma agrupada. Ya sea texto, imágenes, vídeos,…
+        El elemento table será el que nos ayudará para crear las tablas en HTML. 
+        Un mal uso de las tablas en HTML es el motivo de maquetación, uso que se dió a las tablas en los principios del lenguaje HTML. 
+        Algo que hoy en día es una mala práctica. Cambiando por un modelo de maquetación apoyado en capas.
+    </p>
+    <a href="https://www.w3schools.com/html/html_tables.asp">MAS INFO SOBRE TABLAS</a> <br />
+    <br />
+    <table> <br/>
+        <p> table, th, td, tr</p>
+        <tr>
+          <th>P</th>
+          <th>q</th>
+          <th>∧</th>
+          <th>∨</th>
+          <th>⇒</th>
+          <th>⇔</th>
+          <th>¬p</th>
+          <th>¬q</th>
+        </tr>
+        <tr>
+          <td>V</td>
+          <td>V</td>
+          <td>V</td>
+          <td>V</td>
+          <td>V</td>
+          <td>V</td>
+          <td>F</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>V</td>
+          <td>F</td>
+          <td>F</td>
+          <td>V</td>
+          <td>F</td>
+          <td>F</td>
+          <td>F</td>
+          <td>V</td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td>V</td>
+            <td>F</td>
+            <td>V</td>
+            <td>V</td>
+            <td>F</td>
+            <td>V</td>
+            <td>F</td>
+          </tr>
+          <tr>
+            <td>F</td>
+            <td>F</td>
+            <td>F</td>
+            <td>F</td>
+            <td>V</td>
+            <td>V</td>
+            <td>V</td>
+            <td>V</td>
+          </tr>
+    </table>
+
+   <br />
+
+   <table style="width:50%"> <br/>
+    <p> th</p>
+    <tr>
+      <th style="text-align:left">LUNES</th>
+      <th style="text-align:left">MARTES</th>
+    </tr>
+    <tr>
+      <td>BALONES</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>TRAMPOLINES</td>
+      <td>20</td>
+    </tr>
+  </table>
+
+  <br />
+  <br />
+
+  <table> 
+    <p>
+        Caption
+    </p>
+    <caption style="text-align:right"> SAlARIO </caption>
+    <tr>
+      <th> MES </th>
+      <th>SALARIO</th>
+    </tr>
+    <tr>
+      <td>Agosto</td>
+      <td> 12.000.000 $</td>
+    </tr>
+  </table>
+  <br>
+  
+  <table>
+    <caption style="text-align:right"> DEACUERDO AL AÑO ANTERIOR </caption>
+    <tr>
+      <th>MES</th>
+      <th>SALARIO</th>
+    </tr>
+    <tr>
+      <td>AGOSTO</td>
+      <td>6.0000.0000 $</td>
+    </tr>
+  </table>
+
+  <br />
+
+  <table>
+    <p>
+        colgroup
+    </p>
+    <colgroup>
+      <col span="2" style="background-color:rgb(79, 158, 83)">
+      <col style="background-color:rgb(73, 205, 209)">
+    </colgroup>
+    <tr>
+      <th>UNIDADES</th>
+      <th>DESCRIPCION </th>
+      <th>PRECIO</th>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>CAMARA DOMO 2 MPX PLASTICO DAHUA</td>
+      <td>3.400.000 $</td>
+    </tr>
+  </table>
+</body>
+</html>
+
+
+<html>
+<br />
+<br />
+<br />
+<br />
+    <p>
+            thead, tbody,tfoot
+    </p>
+<head>
+<style>
+thead {color: rgb(0, 0, 0);}
+tbody {color: blue;}
+tfoot {color: rgb(0, 6, 92);}
+
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>NOMBRE</th>
+      <th>AÑOS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>JUAN</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>PEDRO</td>
+      <td>45</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>LUCIA</td>
+      <td>20</td>
+    </tr>
+  </tfoot>
+</table>
+
+</body>
+</html>
